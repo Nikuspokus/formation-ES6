@@ -118,6 +118,33 @@
 // Section 2 - chap 19
 ////////////////////////////////////
 // l'immutabilité
-var nom = "Nicolaz"
-nom[nom.length - 1] = "s"
-console.log(nom[nom.length - 1]);
+// var nom = "Nicolaz"
+// nom[nom.length - 1] = "s"
+// console.log(nom[nom.length - 1]);
+// impossible de venir modifier la chaîne de caractère avec un length
+////////////////////////////////////
+// Section 2 - chap 20
+////////////////////////////////////
+// Les arrays
+var nom = "Nicolas"
+var age = 35
+var stats = ["attaque", "defense"]
+var array = [nom, age, stats]
+console.log(array)
+////////////////////////////////////
+// Section 2 - chap 21
+////////////////////////////////////
+// Accéder aux données de l'array
+var nom = "Nicolas"
+var age = 35
+var stats = ["attaque", "defense"]
+var array = [nom, age, stats]
+console.log(array[2][1])
+array[0] = "Toto"
+console.log(array)
+array[2][1] = "Puissance"
+////////////////////////////////////
+// Section 2 - chap 22
+////////////////////////////////////
+// Trouver la taille d'un array
+console.log(array[0].length);

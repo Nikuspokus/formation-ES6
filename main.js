@@ -1,0 +1,79 @@
+////////////////////////////////////
+// Section 2 - chap 6
+////////////////////////////////////
+// var num = 1;
+// var chiffre;
+// var chiffre2 = 2;
+
+// console.log(num);
+// console.log(chiffre);
+// console.log(chiffre2 + num);
+
+////////////////////////////////////
+// Section 2 - chap 7
+////////////////////////////////////
+// Camel Case
+// var motDePasse = 1234
+////////////////////////////////////
+// Section 2 - chap 8
+////////////////////////////////////
+// Ton premier calcul
+// console.log(11 + 2);
+// console.log(11 - 2);
+// console.log(11 * 2);
+// console.log(11 / 2);
+////////////////////////////////////
+// Section 2 - chap 9
+////////////////////////////////////
+// Les nombres décimaux
+// console.log(11,45 + 2);
+// console.log(11.45 + 2);
+// console.log(0.1 + 0.2);
+////////////////////////////////////
+// Section 2 - chap 10
+////////////////////////////////////
+// Les priorités de calcul "*" "/"
+// console.log(1 + 2 * 5);
+// console.log(1 / 2 + 2 * 5);
+// console.log(5*2/4);
+////////////////////////////////////
+// Section 2 - chap 11
+////////////////////////////////////
+// Une dernière opération le modulo 
+// console.log(10%3);
+////////////////////////////////////
+// Section 2 - chap 12
+////////////////////////////////////
+// l'incrémentation
+// var num = 0
+// num = num + 1
+// num++ 
+// console.log(num);
+////////////////////////////////////
+// Section 2 - chap 13
+////////////////////////////////////
+// var num = 5
+// num += 5
+// console.log(num);
+// var num = 5
+// num *= 5
+// console.log(num);
+// var num = 5
+// num /= 5
+// console.log(num);
+// var num = 5
+// num -= 5
+// console.log(num);
+////////////////////////////////////
+// Section 2 - chap 14
+////////////////////////////////////
+// Les chaînes de caractères
+// var texte = "Coucou"
+// var texte2 = 'tout le monde,'
+// var texte3 = 'je m\'appelle Nicolas'
+// console.log(texte + ' ' + texte2 + ' ' + texte3);
+////////////////////////////////////
+// Section 2 - chap 15
+////////////////////////////////////
+// Echapper un caractère
+

@@ -148,3 +148,4 @@ array[2][1] = "Puissance"
 ////////////////////////////////////
 // Trouver la taille d'un array
 console.log(array[0].length);
+console.log("test SSH");

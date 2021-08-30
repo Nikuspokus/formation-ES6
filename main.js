@@ -222,7 +222,6 @@
 // function soustraction(a, b) {
 //   return a- b
 // }
-
 // var resultat = soustraction(3,8)
 // console.log(resultat);
 ////////////////////////////////////
@@ -232,7 +231,6 @@
 // var note1 = 17
 // var note2 = 14
 // var moyenne = calculeMoyenne(note1, note2);
-
 // function calculeMoyenne(a, b) {
 //   return (a + b) / 2
 // }
@@ -242,6 +240,231 @@
 ////////////////////////////////////
 // Ecrire des commentaires
 // commentaire sur 1 ligne
-/* commentaire sur 
-plusieurs lignes */
+// /* commentaire sur 
+// plusieurs lignes */
+////////////////////////////////////
+// Section 2 - chap 30
+////////////////////////////////////
+// Comprendre les boolean
+// vrai = true || faux = false
+// console.log(2 == 2);
+// var a = 1
+// var b = 2
+// console.log(a == b);
+// console.log(a != b);
+////////////////////////////////////
+// Section 2 - chap 31
+////////////////////////////////////
+// La consition ternaire
+// var a = 1
+// var b = 2
+// console.log(a == b ? "vrai" : "faux");
+// var age = 16
+// var majeur = 18
+// console.log(age == majeur ? "Entre" : "Sors");
+////////////////////////////////////
+// Section 2 - chap 32
+////////////////////////////////////
+// Les opérateurs
+// var age = 19
+// var majeur = 18
+// console.log(1 == 1 && 1 == 2);
+// console.log(1 == 1 || 1 == 2);
+// console.log(1 == 1 && 1 < 2 ? "OK" : "Pas Ok");
+////////////////////////////////////
+// Section 2 - chap 33
+////////////////////////////////////
+// Le mode strict
+// console.log(1 == "1");
+// console.log(1 === "1");
+////////////////////////////////////
+// Section 2 - chap 34
+////////////////////////////////////
+// La condition if/else
+// function esTuFort(force) {
+//   if (force >= 15) {
+//       return"Tu es très fort"
+//   } else if (force >= 10) {
+//       return "Tu es fort"
+//   } else if (force >= 5) {
+//       return "Tu es faible"
+//   }
+//   else {
+//     return "non"
+//   }
+// }
+// console.log(esTuFort(15));
+// console.log(esTuFort(10));
+// console.log(esTuFort(5));
+////////////////////////////////////
+// Section 2 - chap 35
+////////////////////////////////////
+// Pratique : Calculer une moyenne (V2)
+// function niveau(arr) {
+//   var moyenne = (arr[0] + arr[1] + arr[2]) / arr.length;
+//   if (moyenne >= 15) {
+//     return "Très bien !";
+//   } 
+//   else if (moyenne >= 10) {
+//     return "Bien !";
+//   } 
+//   return "Convocation des parents";
+// }
+// console.log(niveau([5,6,2]));
+////////////////////////////////////
+// Section 2 - chap 36
+////////////////////////////////////
+// Les objets
+// var chevalier = {
+//   "force": 15,
+//   "vitesse": 10,
+//   "faiblesse": ["mage", "ninja"]
+// };
+// var requete = "force"
+// console.log(chevalier.faiblesse);
+// console.log(chevalier.faiblesse[0]);
+////////////////////////////////////
+// Section 2 - chap 37
+////////////////////////////////////
+// manipuler les objets
+// var chevalier = {
+//   "force": 15,
+//   "vitesse": 10,
+//   "faiblesse": ["mage", "ninja"]
+// };
+// chevalier.force = 20
+// chevalier.arme = "épée"
+// var requete = "force"
+// console.log(chevalier.faiblesse[1]);
+// console.log(chevalier.force);
+// console.log(chevalier.arme);
+// console.log(chevalier);
+// delete chevalier.arme
+// console.log(chevalier);
+////////////////////////////////////
+// Section 2 - chap 38
+////////////////////////////////////
+// manipuler les objets
+// var chevalier = {
+//   "force": 15,
+//   "vitesse": 10,
+//   "faiblesse": ["mage", "ninja"],
+//   "compagnon": {
+//     "animal": "dragon",
+//     "aide": "écuyer"
+//   }
+// };
+// chevalier.force = 20
+// chevalier.arme = "épée"
+// delete chevalier.arme
+// var requete = "force"
+// hasOwnProperty permet de savoir si la propryété en paramètre existe dans mon objet
+// console.log(chevalier.hasOwnProperty("force"));
+// console.log(chevalier.hasOwnProperty("arme"));
+// console.log(chevalier.compagnon.animal);
+// console.log(chevalier.compagnon.aide);
+////////////////////////////////////
+// Section 2 - chap 39
+////////////////////////////////////
+// La boucle while
+// var i = 0;
+// var triangle = []
+// //while = tant que
+// while (i < 10) {
+//   i++;
+//   triangle.push("*")
+//   console.log(triangle);
+// }
+////////////////////////////////////
+// Section 2 - chap 40
+////////////////////////////////////
+// La boucle for
+// var triangle = []
+// for (i = 10; i >= 0; i-=2) {
+//   triangle.push("*")
+//   console.log(triangle);
+// }
+////////////////////////////////////
+// Section 2 - chap 41
+////////////////////////////////////
+// Application concrète d'une boucle for
+// var arr = [10, 5, 15, 7];
+// var total = 0;
 
+// for (var i = 0; i < arr.length; i++) {
+//   total += arr[i];
+// }
+// console.log(total);
+////////////////////////////////////
+// Section 2 - chap 42
+////////////////////////////////////
+// Pratique: Calculer mayenne (V3)
+// function moyenne(arr) {
+//   var total = 0;
+//   for (var i = 0; i < arr.length; i++) {
+//     total += arr[i]
+//   }
+//   return total / arr.length
+// }
+// console.log(moyenne([15,7,8,14]));
+/////////////////////////////////
+// Section 2 - chap 43
+////////////////////////////////////
+// Une boucle dans une boucle
+// function plusUn(arr) {
+//   for(i = 0; i < arr.length; i++) {
+//     for(j = 0; j < arr[i].length; j++) {
+//       arr[i][j] += 1
+//     }
+//   }
+//   return arr;
+// }
+// console.log(plusUn([[1,2],[3,4],[5,6]]));
+/////////////////////////////////
+// Section 2 - chap 44
+////////////////////////////////////
+// Générer un nombre aléatoire
+// var random = Math.random() * 6;
+// floor permet de récupérer l'entier de la valeur du random
+//  le +1 évite d'avoir 0 en résultat 
+// var random = Math.floor(Math.random() * 6 + 1);
+// console.log(random);
+/////////////////////////////////
+// Section 2 - chap 45
+////////////////////////////////////
+// Générer un nombre aléatoire dans un rang
+// function rangRandom(min, max) {
+//   return Math.floor(Math.random() * (max - min + 1) + min);
+// }
+// console.log(rangRandom(5, 10));
+/////////////////////////////////
+// Section 2 - chap 46
+////////////////////////////////////
+// Mélanger un array
+// function randomize(arr) {
+//   var temp = 0;
+//   var random = 0;
+
+//   for (i = 0;i < arr.length; i++) {
+//     random = Math.floor(Math.random() * arr.length);
+//     temp = arr[i];
+//     arr[i] = arr[random];
+//     arr[random] = temp
+//   }
+//   return arr;
+// }
+// console.log(randomize([1,2,3,4,5]));
+/////////////////////////////////
+// Section 2 - chap 47
+////////////////////////////////////
+// Découverte de la méthode Map
+// var arr = [1, 2, 3, 4, 5]
+// var arrPlusUn = arr.map(function(nombre) {
+//   return nombre +1
+// })
+// console.log(arr);
+// console.log(arrPlusUn);
+/////////////////////////////////
+// Section 3 - chap 48
+////////////////////////////////////
+// La nouveauté de JavaScript

@@ -126,26 +126,122 @@
 // Section 2 - chap 20
 ////////////////////////////////////
 // Les arrays
-var nom = "Nicolas"
-var age = 35
-var stats = ["attaque", "defense"]
-var array = [nom, age, stats]
-console.log(array)
+// var nom = "Nicolas"
+// var age = 35
+// var stats = ["attaque", "defense"]
+// var array = [nom, age, stats]
+// console.log(array)
 ////////////////////////////////////
 // Section 2 - chap 21
 ////////////////////////////////////
 // Accéder aux données de l'array
-var nom = "Nicolas"
-var age = 35
-var stats = ["attaque", "defense"]
-var array = [nom, age, stats]
-console.log(array[2][1])
-array[0] = "Toto"
-console.log(array)
-array[2][1] = "Puissance"
+// var nom = "Nicolas"
+// var age = 35
+// var stats = ["attaque", "defense"]
+// var array = [nom, age, stats]
+// console.log(array[2][1])
+// array[0] = "Toto"
+// console.log(array)
+// array[2][1] = "Puissance"
 ////////////////////////////////////
 // Section 2 - chap 22
 ////////////////////////////////////
 // Trouver la taille d'un array
-console.log(array[0].length);
-console.log("test SSH");
+// console.log(array[0].length);
+// console.log("test SSH");
+// ////////////////////////////////////
+// Section 2 - chap 23
+////////////////////////////////////
+// ajouter ou supprimer des données dans un array
+// var arr = [1,2,3];
+// "PUSH" pour ajouter à la fin d'un tableau
+// arr.push(4)
+// "POP"pour supprimer à la fin d'un tableau
+// var pop = arr.pop()
+// console.log(arr);
+// Une fois le pop stocké dans une variable 
+// pop supprime le dernier élément du tableau 
+// mais pop = la dernière valeur supprimée
+// console.log(pop);
+//////////////////////////////////////////////////
+// var arr = [1,2,3];
+// "UNSHIFT" pour ajouter au début du tableau
+// arr.unshift(0);
+// console.log(arr);
+// "SHIFT" pour supprimer le premier du tableau
+// arr.shift(0);
+// console.log(arr);
+////////////////////////////////////
+// Section 2 - chap 24
+////////////////////////////////////
+// Cas pratique trouver les initiales
+// var prenom = "Nicolas"
+// var nom = "Marquillier"
+// var init = prenom[0] + nom [0]
+// var resultat = []
+// resultat.push(prenom, nom, init)
+// resultat.push(prenom)
+// resultat.push(nom)
+// resultat.push(init)
+// console.log(resultat);
+////////////////////////////////////
+// Section 2 - chap 25
+////////////////////////////////////
+// Découverte ds fonctions
+// function maFonction(num) {
+//   console.log(2 + num);
+// }
+// maFonction(5)
+
+// function soustraction(a, b) {
+//   console.log(a - b);
+// }
+// soustraction(2, 1)
+////////////////////////////////////
+// Section 2 - chap 26
+////////////////////////////////////
+// Le scope
+// var num = 5;
+
+// function soustraction() {
+//   var num = 7;
+//   console.log(num);
+
+//   function test() {
+//     var testvar = "test"
+//     console.log(testvar);
+//   }
+//   test()
+// }
+// soustraction()    
+// console.log(num);
+////////////////////////////////////
+// Section 2 - chap 27
+////////////////////////////////////
+// Retourner une valeur
+// function soustraction(a, b) {
+//   return a- b
+// }
+
+// var resultat = soustraction(3,8)
+// console.log(resultat);
+////////////////////////////////////
+// Section 2 - chap 28
+////////////////////////////////////
+// Pratique: Calculer une moyenne
+// var note1 = 17
+// var note2 = 14
+// var moyenne = calculeMoyenne(note1, note2);
+
+// function calculeMoyenne(a, b) {
+//   return (a + b) / 2
+// }
+// console.log(moyenne);
+////////////////////////////////////
+// Section 2 - chap 29
+////////////////////////////////////
+// Ecrire des commentaires
+// commentaire sur 1 ligne
+/* commentaire sur 
+plusieurs lignes */
+
